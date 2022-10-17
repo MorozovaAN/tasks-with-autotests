@@ -1,6 +1,7 @@
 {
   "name": "hws2",
-  "homepage": "http://MorozovaAN.github.io/tasks-with-autotests",
+  //"homepage":"https://yourusern.github.io/repository-name"
+  "homepage": "https://MorozovaAN.github.io/tasks-with-autotests",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
