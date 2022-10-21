@@ -6,15 +6,6 @@ import FriendMessage from "./friend-message/FriendMessage";
 import KotAvatar from "./mr-Kot.jpg";
 import KoshAvatar from "./mrs-Kosh.jpg";
 
-/*
- * 1 - описать тип MessageType
- * 2 - описать тип MessagePropsType в файле Message.tsx
- * 3 - в файле Message.tsx отобразить приходящие данные
- * 4 - выполнить пункты 2, 3 в файле FriendMessage.tsx
- * 5 - сделать стили в соответствии с дизайном
- * */
-
-// нужно создать правильный тип вместо any
 export type MessageType = {
   id: number;
   user: UserType;
@@ -57,7 +48,7 @@ export const friendMessage0: MessageType = {
 const HW1 = () => {
   return (
     <div id={"hw1"}>
-      <div className={s2.hwTitle}>Homework #1</div>
+      <h2 className={s2.hwTitle}>Homework #1</h2>
       <div className={s2.hwBorder}>
         <div className={s2.hw}>
           {/*проверка отображения (не менять)*/}
