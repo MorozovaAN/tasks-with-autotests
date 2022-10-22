@@ -1,20 +1,39 @@
-.input:focus {
+.input:focus,
+.input:focus-visible {
+  border: 2px solid #01376e;
+  outline: none;
 }
 
 .input {
+  min-width: 372px;
+  min-height: 36px;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  padding: 5px 7px;
 }
 
 .inputWrapper {
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .superInput {
 }
 
 .errorInput {
+  border: 1px solid #cc1439;
 }
 
-.errorInput:focus {
+.errorInput:focus,
+.errorInput:focus-visible {
+  border: 2px solid #cc1439;
+  outline: none;
 }
 
 .error {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  color: #cc1439;
+  margin-bottom: 5px;
 }

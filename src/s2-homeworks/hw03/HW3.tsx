@@ -39,7 +39,7 @@ const HW3 = () => {
   const [users, setUsers] = useState<UserType[]>([]);
 
   const addUserCallback = (name: string) => {
-    pureAddUserCallback(name, setUsers, users);
+    pureAddUserCallback(name.trim(), setUsers, users);
   };
 
   return (
