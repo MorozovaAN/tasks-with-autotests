@@ -14,11 +14,11 @@ export const Header: FC<PropsType> = ({ handleOpen }) => {
 
   const pageName =
     currentPath === PATH.PRE_JUNIOR
-      ? "Pre-junior page"
+      ? "Pre-junior"
       : currentPath === PATH.JUNIOR
-      ? "Junior page"
+      ? "Junior"
       : currentPath === PATH.JUNIOR_PLUS
-      ? "Junior Plus page"
+      ? "Junior Plus"
       : "Error";
   return (
     <>
