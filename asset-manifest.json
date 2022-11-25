@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/tasks-with-autotests/static/css/main.23b238a5.css",
-    "main.js": "/tasks-with-autotests/static/js/main.a385bc5a.js",
+    "main.js": "/tasks-with-autotests/static/js/main.33160c6c.js",
     "static/js/787.66cb4309.chunk.js": "/tasks-with-autotests/static/js/787.66cb4309.chunk.js",
     "static/media/mrs-Kosh.jpg": "/tasks-with-autotests/static/media/mrs-Kosh.53b042a88489d9930e2d.jpg",
     "static/media/mr-Kot.jpg": "/tasks-with-autotests/static/media/mr-Kot.635a9fb09bf4880b1132.jpg",
     "static/media/404.svg": "/tasks-with-autotests/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
     "static/media/closeOutline.svg": "/tasks-with-autotests/static/media/closeOutline.b64ba402fac8a549bc2de97e9cf84a61.svg",
+    "static/media/editIcon.svg": "/tasks-with-autotests/static/media/editIcon.0a0cefd2190b593b4f76bb1a5afe0c1f.svg",
     "static/media/checked.svg": "/tasks-with-autotests/static/media/checked.b75ca55e8759862b4083.svg",
     "index.html": "/tasks-with-autotests/index.html",
     "static/media/burger.svg": "/tasks-with-autotests/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
     "static/media/message-tail.svg": "/tasks-with-autotests/static/media/message-tail.5c511181f66e2088161dfdc358a41bd8.svg",
     "static/media/friend-message-tail.svg": "/tasks-with-autotests/static/media/friend-message-tail.96a73c2f7dc7282fbef6.svg",
     "main.23b238a5.css.map": "/tasks-with-autotests/static/css/main.23b238a5.css.map",
-    "main.a385bc5a.js.map": "/tasks-with-autotests/static/js/main.a385bc5a.js.map",
+    "main.33160c6c.js.map": "/tasks-with-autotests/static/js/main.33160c6c.js.map",
     "787.66cb4309.chunk.js.map": "/tasks-with-autotests/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.23b238a5.css",
-    "static/js/main.a385bc5a.js"
+    "static/js/main.33160c6c.js"
   ]
 }
