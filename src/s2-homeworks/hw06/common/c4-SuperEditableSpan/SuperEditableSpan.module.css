@@ -1,10 +1,23 @@
 .spanBlock {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  height: 36px;
 }
 
 .span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0080ff;
 }
 
 .input {
+  width: 276px;
+}
+.input:focus,
+.input:focus-visible {
+  border: 1px solid #d1d1d1;
 }
 
 .pen {
