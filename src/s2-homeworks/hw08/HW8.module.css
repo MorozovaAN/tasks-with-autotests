@@ -3,6 +3,7 @@
 }
 
 .item:last-of-type {
+  border: none;
 }
 
 .users {

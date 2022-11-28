@@ -14,13 +14,11 @@
   color: #ffffff;
   background: #0066cc;
 }
-
-.disabled {
-  background: #004d99;
-  color: #002e5c;
-  opacity: 0.5;
-  cursor: default;
-  pointer-events: none;
+.default:hover {
+  background: #0080ff;
+}
+.default:active {
+  background: #0059b3;
 }
 
 .secondary {
@@ -28,40 +26,42 @@
   color: #0066cc;
   background: #fff;
 }
-
-.red {
-  color: #ffffff;
-  background: #cc1439;
-}
-
-.default:hover {
-  background: #0080ff;
-}
-
-.red:hover {
-  background: #ff1a47;
-}
-
 .secondary:hover {
   background: #e5f0fa;
 }
-
-.default:active {
-  background: #0059b3;
-}
-
 .secondary:active {
   background: #c9e5ff;
 }
 
+.red {
+  background: #cc1439;
+}
+.red:hover {
+  background: #ff1a47;
+}
 .red:active {
   background: #b31232;
 }
 
-.button:disabled {
-  background: #004d99;
+.green {
+  background: #13a52c;
+}
+.green:hover {
+  background: #15c834;
+}
+.green:active {
+  background: #0f8323;
+}
+
+.disabled {
+  color: #1c1c1c;
   opacity: 0.5;
   cursor: default;
   pointer-events: none;
-  color: #002e5c;
+}
+.button:disabled {
+  opacity: 0.5;
+  cursor: default;
+  pointer-events: none;
+  color: #1c1c1c;
 }

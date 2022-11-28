@@ -23,26 +23,27 @@ const HW7 = () => {
   return (
     <div id={"hw7"}>
       <div className={s2.hwTitle}>Homework #7</div>
-
-      {/*демонстрация возможностей компонент:*/}
-      <div className={s2.hw}>
-        <div className={s.container}>
-          <div>
-            <SuperSelect
-              id={"hw7-super-select"}
-              options={arr}
-              value={value}
-              onChangeOption={onChangeOption}
-            />
-          </div>
-          <div>
-            <SuperRadio
-              id={"hw7-super-radio"}
-              name={"hw7-radio"}
-              options={arr}
-              value={value}
-              onChangeOption={onChangeOption}
-            />
+      <div className={s2.hwBorder}>
+        {/*демонстрация возможностей компонент:*/}
+        <div className={s2.hw}>
+          <div className={s.container}>
+            <div>
+              <SuperSelect
+                id={"hw7-super-select"}
+                options={arr}
+                value={value}
+                onChangeOption={onChangeOption}
+              />
+            </div>
+            <div>
+              <SuperRadio
+                id={"hw7-super-radio"}
+                name={"hw7-radio"}
+                options={arr}
+                value={value}
+                onChangeOption={onChangeOption}
+              />
+            </div>
           </div>
         </div>
       </div>
