@@ -4,7 +4,8 @@
   cursor: pointer;
   font-size: 14px;
   line-height: 17px;
-  color: #000000;
+  color: var(--color);
+  background: var(--background);
 }
 
 .select:focus {

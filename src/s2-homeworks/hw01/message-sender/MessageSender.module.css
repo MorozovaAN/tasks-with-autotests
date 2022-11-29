@@ -8,16 +8,20 @@
   box-sizing: border-box;
   width: 100%;
   margin-right: 44px;
-  background: #f5f7fb;
-  box-shadow: 0px 5px 20px rgb(29 33 38 / 3%), 0px 1px 2px rgb(29 33 38 / 10%);
+  background: var(--background);
+  box-shadow: 0 5px 20px rgb(29 33 38 / 3%), 0 1px 2px rgb(29 33 38 / 10%);
   border-radius: 20px;
   border: none;
   padding: 12px 24px;
   resize: none;
+  color: var(--color);
 }
 .textarea:focus,
 .textarea:focus-visible {
   outline-color: #01376e;
+}
+[data-theme="3"] .textarea {
+  outline: 1px solid #fff;
 }
 .button {
   width: 120px;

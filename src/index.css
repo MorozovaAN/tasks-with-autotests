@@ -24,3 +24,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+[data-theme="1"] {
+  --color: #000000;
+  --background: #ffffff;
+}
+
+[data-theme="2"] {
+  --color: #000000;
+  --background: #d7e9f6ba;
+}
+
+[data-theme="3"] {
+  --color: #ffffff;
+  --background: #212a34;
+}
+
+html {
+  background-color: var(--background);
+  color: var(--color);
+}
