@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.css": "/tasks-with-autotests/static/css/main.d342a304.css",
-    "main.js": "/tasks-with-autotests/static/js/main.e53dbddb.js",
+    "main.css": "/tasks-with-autotests/static/css/main.82c724ef.css",
+    "main.js": "/tasks-with-autotests/static/js/main.3dd7fa9f.js",
     "static/js/787.66cb4309.chunk.js": "/tasks-with-autotests/static/js/787.66cb4309.chunk.js",
     "static/media/mrs-Kosh.jpg": "/tasks-with-autotests/static/media/mrs-Kosh.53b042a88489d9930e2d.jpg",
     "static/media/mr-Kot.jpg": "/tasks-with-autotests/static/media/mr-Kot.635a9fb09bf4880b1132.jpg",
+    "static/media/200.svg": "/tasks-with-autotests/static/media/200.96248f7df0dde10e0a82ac30418f50bc.svg",
+    "static/media/error.svg": "/tasks-with-autotests/static/media/error.5a3135f381b00b53044eff200e725391.svg",
+    "static/media/500.svg": "/tasks-with-autotests/static/media/500.adbc5f265f6f3c1fb9c5633ffe365afa.svg",
+    "static/media/400.svg": "/tasks-with-autotests/static/media/400.8baa1b795048b6fa13ff8d30800aa1b1.svg",
     "static/media/404.svg": "/tasks-with-autotests/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
     "static/media/closeOutline.svg": "/tasks-with-autotests/static/media/closeOutline.b64ba402fac8a549bc2de97e9cf84a61.svg",
     "static/media/editIcon.svg": "/tasks-with-autotests/static/media/editIcon.0a0cefd2190b593b4f76bb1a5afe0c1f.svg",
@@ -13,12 +17,12 @@
     "static/media/burger.svg": "/tasks-with-autotests/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
     "static/media/message-tail.svg": "/tasks-with-autotests/static/media/message-tail.5c511181f66e2088161dfdc358a41bd8.svg",
     "static/media/friend-message-tail.svg": "/tasks-with-autotests/static/media/friend-message-tail.96a73c2f7dc7282fbef6.svg",
-    "main.d342a304.css.map": "/tasks-with-autotests/static/css/main.d342a304.css.map",
-    "main.e53dbddb.js.map": "/tasks-with-autotests/static/js/main.e53dbddb.js.map",
+    "main.82c724ef.css.map": "/tasks-with-autotests/static/css/main.82c724ef.css.map",
+    "main.3dd7fa9f.js.map": "/tasks-with-autotests/static/js/main.3dd7fa9f.js.map",
     "787.66cb4309.chunk.js.map": "/tasks-with-autotests/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d342a304.css",
-    "static/js/main.e53dbddb.js"
+    "static/css/main.82c724ef.css",
+    "static/js/main.3dd7fa9f.js"
   ]
 }
