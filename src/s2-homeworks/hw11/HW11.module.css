@@ -7,11 +7,14 @@
 .wrapper {
   display: flex;
   align-items: center;
-  column-gap: 20px;
+  column-gap: 16px;
 }
 
 .number {
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
+  display: inline-block;
+  width: 30px;
+  text-align: end;
 }

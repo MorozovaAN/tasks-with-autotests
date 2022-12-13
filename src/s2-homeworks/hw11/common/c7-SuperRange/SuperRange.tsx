@@ -5,12 +5,41 @@ const SuperRange: React.FC<SliderProps> = (props) => {
   return (
     <Slider
       sx={{
-        // стили для слайдера // пишет студент
-        width: 150,
-        color: "#00CC22",
-        "--Slider-track-size": "4px",
-        "--Slider-thumb-width": "18px",
-        "--Slider-thumb-size": "18px",
+        // стили для слайдера
+
+        ".MuiSlider-thumb.MuiSlider-active": {
+          boxShadow: "none ",
+          border: "10px solid black",
+        },
+
+        width: 200,
+        color: "#13a52c",
+        ".MuiSlider-track": {
+          height: "4px",
+        },
+        ".MuiSlider-thumb": {
+          width: "18px",
+          height: "18px",
+          border: "2px solid #13a52c",
+          background: "var(--background)",
+        },
+        ".MuiSlider-thumb::after": {
+          content: `""`,
+          background: "#13a52c",
+          position: "absolute",
+          width: "7px",
+          height: "7px",
+        },
+
+        ".MuiSlider-thumb:hover": {
+          boxShadow: "0px 0px 0px 5px rgb(21 200 52 / 18%)",
+        },
+        ".MuiSlider-thumb:focus-visible": {
+          boxShadow: "0px 0px 0px 5px rgb(21 200 52 / 18%)",
+        },
+        ".MuiSlider-rail": {
+          backgroundColor: "#000",
+        },
       }}
       {...props} // отдаём слайдеру пропсы если они есть (value например там внутри)
     />
@@ -18,7 +47,3 @@ const SuperRange: React.FC<SliderProps> = (props) => {
 };
 
 export default SuperRange;
-
-// .css-eg0mwd-MuiSlider-thumb:hover, .css-eg0mwd-MuiSlider-thumb.Mui-focusVisible {
-//     box-shadow: 0px 0px 0px 6px rgb(25 210 102 / 16%);
-// }
