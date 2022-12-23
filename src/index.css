@@ -26,16 +26,19 @@ code {
 }
 [data-theme="1"] {
   --color: #000000;
+  --color-secondary: #e5e5e5;
   --background: #ffffff;
 }
 
 [data-theme="2"] {
   --color: #000000;
+  --color-secondary: #fff;
   --background: #d7e9f6ba;
 }
 
 [data-theme="3"] {
   --color: #ffffff;
+  --color-secondary: #6362628f;
   --background: #212a34;
 }
 
