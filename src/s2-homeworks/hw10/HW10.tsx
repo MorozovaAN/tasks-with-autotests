@@ -33,17 +33,18 @@ const HW10 = () => {
   return (
     <div id={"hw10"}>
       <div className={s2.hwTitle}>Homework #10</div>
-
-      <div className={s2.hw}>
-        {isLoading ? (
-          <div id={"hw10-loading"}>
-            <Loader />
-          </div>
-        ) : (
-          <SuperButton id={"hw10-button-start-loading"} onClick={setLoading}>
-            Set loading...
-          </SuperButton>
-        )}
+      <div className={s2.hwBorder}>
+        <div className={s2.hw}>
+          {isLoading ? (
+            <div id={"hw10-loading"}>
+              <Loader />
+            </div>
+          ) : (
+            <SuperButton id={"hw10-button-start-loading"} onClick={setLoading}>
+              Set loading...
+            </SuperButton>
+          )}
+        </div>
       </div>
     </div>
   );
