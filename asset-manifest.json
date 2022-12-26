@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tasks-with-autotests/static/css/main.57f07f2c.css",
+    "main.css": "/tasks-with-autotests/static/css/main.c039891c.css",
     "main.js": "/tasks-with-autotests/static/js/main.3f9d6b1c.js",
     "static/js/787.66cb4309.chunk.js": "/tasks-with-autotests/static/js/787.66cb4309.chunk.js",
     "static/media/mrs-Kosh.jpg": "/tasks-with-autotests/static/media/mrs-Kosh.53b042a88489d9930e2d.jpg",
@@ -20,12 +20,12 @@
     "static/media/friend-message-tail.svg": "/tasks-with-autotests/static/media/friend-message-tail.96a73c2f7dc7282fbef6.svg",
     "static/media/iconDown.svg": "/tasks-with-autotests/static/media/iconDown.84608c11f30550bbfe9dc58dff6d4ddb.svg",
     "static/media/iconUp.svg": "/tasks-with-autotests/static/media/iconUp.3f53e1ada336d4a2b89dabfb878c65f9.svg",
-    "main.57f07f2c.css.map": "/tasks-with-autotests/static/css/main.57f07f2c.css.map",
+    "main.c039891c.css.map": "/tasks-with-autotests/static/css/main.c039891c.css.map",
     "main.3f9d6b1c.js.map": "/tasks-with-autotests/static/js/main.3f9d6b1c.js.map",
     "787.66cb4309.chunk.js.map": "/tasks-with-autotests/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57f07f2c.css",
+    "static/css/main.c039891c.css",
     "static/js/main.3f9d6b1c.js"
   ]
 }
