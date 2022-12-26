@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.tech {
+}
+
+.loading {
+  margin-top: 11px;
+  align-self: end;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #4d4d4d;
+}
