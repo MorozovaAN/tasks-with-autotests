@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tasks-with-autotests/static/css/main.c039891c.css",
-    "main.js": "/tasks-with-autotests/static/js/main.6ecaffbb.js",
+    "main.css": "/tasks-with-autotests/static/css/main.75e006ca.css",
+    "main.js": "/tasks-with-autotests/static/js/main.893d4602.js",
     "static/js/787.66cb4309.chunk.js": "/tasks-with-autotests/static/js/787.66cb4309.chunk.js",
     "static/media/mrs-Kosh.jpg": "/tasks-with-autotests/static/media/mrs-Kosh.53b042a88489d9930e2d.jpg",
     "static/media/mr-Kot.jpg": "/tasks-with-autotests/static/media/mr-Kot.635a9fb09bf4880b1132.jpg",
@@ -20,12 +20,12 @@
     "static/media/friend-message-tail.svg": "/tasks-with-autotests/static/media/friend-message-tail.96a73c2f7dc7282fbef6.svg",
     "static/media/iconDown.svg": "/tasks-with-autotests/static/media/iconDown.84608c11f30550bbfe9dc58dff6d4ddb.svg",
     "static/media/iconUp.svg": "/tasks-with-autotests/static/media/iconUp.3f53e1ada336d4a2b89dabfb878c65f9.svg",
-    "main.c039891c.css.map": "/tasks-with-autotests/static/css/main.c039891c.css.map",
-    "main.6ecaffbb.js.map": "/tasks-with-autotests/static/js/main.6ecaffbb.js.map",
+    "main.75e006ca.css.map": "/tasks-with-autotests/static/css/main.75e006ca.css.map",
+    "main.893d4602.js.map": "/tasks-with-autotests/static/js/main.893d4602.js.map",
     "787.66cb4309.chunk.js.map": "/tasks-with-autotests/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c039891c.css",
-    "static/js/main.6ecaffbb.js"
+    "static/css/main.75e006ca.css",
+    "static/js/main.893d4602.js"
   ]
 }
