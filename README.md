@@ -3,7 +3,6 @@
 #### The result of work on [GitHub Pages](https://morozovaan.github.io/tasks-with-autotests/ 'view the project')
 
 Stack:
-
 - React
 - TypeScript
 - Redux
