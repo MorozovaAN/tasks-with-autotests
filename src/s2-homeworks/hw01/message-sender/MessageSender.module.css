@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
 }
+
 .textarea {
   min-height: 40px;
   box-sizing: border-box;
@@ -16,13 +17,16 @@
   resize: none;
   color: var(--color);
 }
+
 .textarea:focus,
 .textarea:focus-visible {
   outline-color: #01376e;
 }
+
 [data-theme="3"] .textarea {
   outline: 1px solid #fff;
 }
+
 .button {
   width: 120px;
   height: 40px;
@@ -36,6 +40,7 @@
   border: none;
   cursor: pointer;
 }
+
 .button:focus,
 .button:focus-visible {
   outline-color: #01376e;
@@ -44,8 +49,14 @@
 .button:hover {
   background: #0475e1;
 }
+
 .button:active {
   background: #fff;
   color: #0066cc;
   outline: #0066cc solid 2px;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  pointer-events: none;
 }

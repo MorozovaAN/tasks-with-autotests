@@ -28,8 +28,8 @@ const Greeting: React.FC<GreetingPropsType> = ({
   return (
     <div id={"hw3-form"} className={s.greetingForm}>
       <p className={s.text}>
-        {"Людей добавили: "}
-        <span id={"hw3-users-total"}>{totalUsers}</span>
+        Людей добавили:
+        <span id={"hw3-users-total"}> {totalUsers}</span>
       </p>
 
       <div className={s.inputAndButtonContainer}>

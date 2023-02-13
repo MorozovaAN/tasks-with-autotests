@@ -18,6 +18,11 @@
   align-items: center;
 }
 
+[data-theme="1"] .techHeader,
+[data-theme="2"] .techHeader {
+  background: #e7e7e7;
+}
+
 .developerHeader {
   background: var(--color-secondary);
   padding: 10px 16px 10px 0;
@@ -28,6 +33,11 @@
   width: 30vw;
   display: flex;
   align-items: center;
+}
+
+[data-theme="1"] .developerHeader,
+[data-theme="2"] .developerHeader {
+  background: #e7e7e7;
 }
 
 .row {

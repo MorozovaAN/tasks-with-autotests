@@ -25,6 +25,7 @@
   caret-color: var(--color);
   color: var(--color);
 }
+
 .errorInput {
   border: 2px solid #cc0000;
   padding: 5px 7px;
@@ -33,6 +34,7 @@
   height: 36px;
   border-radius: 5px;
 }
+
 .input:focus,
 .input:focus-visible {
   border: 2px solid #01376e;
@@ -51,16 +53,19 @@
   color: #ffffff;
   cursor: pointer;
 }
+
 .button:disabled {
   background: #0066cc;
   opacity: 0.5;
   cursor: default;
   pointer-events: none;
 }
+
 .button:focus,
 .button:focus-visible {
   outline: 2px solid #01376e;
 }
+
 .button:active {
   outline: 2px solid #0066cc;
   background: #fff;
@@ -72,8 +77,8 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  opacity: 0.5;
   margin-bottom: 10px;
+  color: var(--color);
 }
 
 .greeting {

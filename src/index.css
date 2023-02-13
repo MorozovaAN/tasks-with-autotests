@@ -24,22 +24,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
 [data-theme="1"] {
   --color: #000000;
-  --color-secondary: #e5e5e5;
+  --color-secondary: #c0c0c0;
   --background: #ffffff;
 }
 
 [data-theme="2"] {
   --color: #000000;
-  --color-secondary: #fff;
-  --background: #d7e9f6ba;
+  --color-secondary: #d5d5d5;
+  --background: #ebf7ff;
 }
 
 [data-theme="3"] {
   --color: #ffffff;
   --color-secondary: #6362628f;
-  --background: #212a34;
+  --background: #1d3045;
 }
 
 html {
